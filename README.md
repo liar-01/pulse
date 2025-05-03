@@ -3,13 +3,13 @@
 ---
 
 ## GitHub Repository:
-[Project Link](https://github.com/your-username/project-name)
+[Project Link](https://github.com/liar-01/pulse.git)
 
 ---
 
 ## Setup Instructions  
 1. Clone the repository:
-   `git clone [your-repo-link-here]`
+   `git clone https://github.com/liar-01/pulse.git`
 2. Install dependencies:
    `npm install`
 3. Start the development server:
