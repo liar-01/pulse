@@ -1,0 +1,65 @@
+/* ==== MAIN CSS FILE ====*/
+
+/* ===== FONT ===== */
+@font-face {
+  font-family: 'ShareTechMono-Regular', monospace;
+  src: url('/public/fonts/ShareTechMono-Regular.ttf') format('truetype');
+}
+
+/* ===== BODY ===== */
+body {
+  font-family: 'ShareTechMono-Regular', monospace;
+  background: white;
+  margin: 0;
+  color: #4A4A6B;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  min-height: 100vh;
+  padding-top: 50px;
+  padding-bottom: 70px;
+  font-weight: bold;
+}
+
+/* ===== TOOLTIPS ===== */
+.tooltip-text {
+  position: absolute;
+  background: rgba(0,0,0,0.8);
+  color: white;
+  padding: 4px 8px;
+  border-radius: 4px;
+  font-size: 0.7rem;
+  opacity: 0;
+  transition: opacity 0.2s;
+  pointer-events: none;
+  white-space: nowrap;
+}
+
+.nav-link .tooltip-text {
+  bottom: 120%;
+  left: 0;
+  width: max-content;
+}
+
+.header-icon .tooltip-text {
+  bottom: -25px;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+.nav-link:hover .tooltip-text,
+.header-icon:hover .tooltip-text {
+  opacity: 1;
+}
+
+/* ===== PAGE CONTAINERS ===== */
+.home-page,
+.profile-page,
+.search-page,
+.add-post-page,
+.messages-page {
+  width: 100%;
+  max-width: 800px;
+  padding: 20px;
+  margin: 0 auto;
+}

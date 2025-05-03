@@ -1,0 +1,238 @@
+/* ===== DARK MODE OVERRIDES ===== */
+body.dark-mode {
+  background: #121212;
+  color: #ffffff;
+}
+
+body.dark-mode,
+body.dark-mode *:not(input):not(textarea):not(select):not(button) {
+  color: #ffffff !important;
+}
+
+/* Form elements */
+body.dark-mode input:not([type="button"]):not([type="submit"]),
+body.dark-mode textarea,
+body.dark-mode select {
+  background: #2d2d2d !important;
+  color: #ffffff !important;
+  border-color: #444 !important;
+}
+
+/* Header & Navbar */
+body.dark-mode .app-header,
+body.dark-mode .nav-icons-container {
+  background: #4A4A6B !important;
+  color: #ffffff !important;
+}
+
+/* Cards and containers */
+body.dark-mode .post-card,
+body.dark-mode .profile-page,
+body.dark-mode .search-page,
+body.dark-mode .add-post-page,
+body.dark-mode .messages-page,
+body.dark-mode .modal-content,
+body.dark-mode .conversations-list,
+body.dark-mode .chat-container,
+body.dark-mode .messages-container,
+body.dark-mode .message-input-container,
+body.dark-mode .comment-section,
+body.dark-mode .user-result,
+body.dark-mode .post-result {
+  background: #1e1e1e !important;
+  border-color: #2d2d2d !important;
+  color: #ffffff !important;
+}
+
+/* Chat messages */
+body.dark-mode .message-content:not(.sent) {
+  background: #2d2d2d !important;
+  color: #ffffff !important;
+}
+
+/* Sent messages */
+body.dark-mode .message.sent .message-content {
+  background: #4A4A6B !important;
+  color: #ffffff !important;
+}
+
+/* Hover states */
+body.dark-mode .conversation-item:hover {
+  background: rgba(74, 74, 107, 0.1) !important;
+}
+
+/* Tooltips */
+body.dark-mode .tooltip-text {
+  background: #ffffff !important;
+  color: #2d2d2d !important;
+}
+
+/* Like button state */
+body.dark-mode .like-button__button[aria-pressed="true"] .like-icon {
+  color: #4A4A6B !important;
+}
+
+/* Buttons */
+body.dark-mode .upload-button,
+body.dark-mode .submit-button,
+body.dark-mode .send-button {
+  background-color: #4A4A6B !important;
+  color: #ffffff !important;
+}
+
+body.dark-mode .upload-button:hover,
+body.dark-mode .submit-button:hover,
+body.dark-mode .send-button:hover {
+  background-color: #33334d !important;
+}
+
+/* File previews */
+body.dark-mode .file-preview {
+  background: #2d2d2d !important;
+  border-color: #444 !important;
+  color: #ffffff !important;
+}
+
+body.dark-mode .file-preview.code { 
+  background: #1e2a3a !important;
+  border-color: #82a5f1 !important;
+}
+
+body.dark-mode .file-preview.archive { 
+  background: #3a2e1e !important;
+  border-color: #f1a582 !important;
+}
+
+body.dark-mode .file-preview.file { 
+  background: #2d2d2d !important;
+}
+
+/* File info text */
+body.dark-mode .file-info,
+body.dark-mode .file-info svg {
+  color: #ffffff !important;
+}
+
+/* Remove file button */
+body.dark-mode .remove-file {
+  color: #ff4444 !important;
+}
+
+/* Form labels */
+body.dark-mode .form-group label {
+  color: #ffffff !important;
+}
+
+/* Character counter */
+body.dark-mode .character-counter {
+  color: #aaaaaa !important;
+}
+
+body.dark-mode .character-counter.warning {
+  color: #ff4444 !important;
+}
+
+/* Headers */
+body.dark-mode h1,
+body.dark-mode h2,
+body.dark-mode h3,
+body.dark-mode h4,
+body.dark-mode h5,
+body.dark-mode h6 {
+  color: #ffffff !important;
+}
+
+/* Links */
+body.dark-mode a {
+  color: #82a5f1 !important;
+}
+
+body.dark-mode a:hover {
+  color: #a0c0ff !important;
+}
+
+/*========= ... ==========*/
+body.dark-mode .comment-button {
+  background-color: #4A4A6B;
+}
+
+body.dark-mode .comment-button:hover {
+  background-color: #33334d;
+}
+
+body.dark-mode .comment-form {
+  background-color: #2d2d2d;
+}
+
+body.dark-mode .modal-comments {
+  background-color: #1e1e1e !important;
+}
+
+/* Dark Mode Styles */
+.modal-overlay.dark-mode {
+  background: rgba(0, 0, 0, 0.7);
+}
+
+.modal-content.dark-mode {
+  background: #1e1e1e;
+  border-left: 1px solid #2d2d2d;
+}
+
+.modal-content.dark-mode h3 {
+  color: white;
+  border-bottom: 1px solid #2d2d2d;
+  padding-bottom: 10px;
+}
+
+.modal-comments.dark-mode {
+  background: #1e1e1e;
+}
+
+.comment.dark-mode {
+  border-bottom: 1px solid #2d2d2d;
+  color: white;
+}
+
+.comment-user.dark-mode {
+  color: #82a5f1;
+}
+
+.comment-text.dark-mode {
+  color: #e0e0e0;
+}
+
+.timestamp.dark-mode {
+  color: #aaa;
+}
+
+.comment-input.dark-mode {
+  background: #2d2d2d;
+  color: white;
+  border-color: #444;
+}
+
+.comment-button.dark-mode {
+  background: #4A4A6B;
+  color: white;
+}
+
+.close-button.dark-mode {
+  color: #aaa;
+}
+
+/* comments sidebar*/
+body.dark-mode .post-page .comments-sidebar {
+  background-color: #1e1e1e;
+
+}
+
+body.dark-mode .home-page .comments-sidebar {
+  background-color: #1e1e1e;
+
+}
+
+/* like button hover */
+body.dark-mode .like-button__button:hover {
+  background: #4A4A6B;
+  color: #7a7af2;
+}

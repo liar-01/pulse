@@ -1,0 +1,36 @@
+/* like-button.css */
+.like-button__button {
+    display: flex;
+    align-items: center;
+    gap: 6px;
+    background: none;
+    border: none;
+    padding: 6px 12px;
+    border-radius: 20px;
+    cursor: pointer;
+    transition: all 0.2s ease;
+    color: #33334d;
+  }
+  
+  .like-button__button:hover {
+    background: #f5f5f5;
+    color: #7a7af2;
+  }
+  
+  .like-icon {
+    display: flex;
+    align-items: center;
+  }
+  
+  .like-count {
+    font-size: 0.95rem;
+    font-weight: 500;
+  }
+
+  .like-button__button[aria-pressed="true"] .like-icon {
+    color: #ff3b5c;
+  }
+  
+  .like-button__button[aria-pressed="true"]:hover {
+    color: #ff3b5c;
+  }

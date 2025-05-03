@@ -1,0 +1,49 @@
+/* ===== HOME PAGE ===== */
+.home-page.comments-open {
+    display: flex;
+    justify-content: space-between;
+    max-width: 1200px;
+    margin: 0 auto;
+    position: relative;
+  }
+  
+  .post-feed {
+    width: 100%;
+    max-width: 800px;
+    transition: all 0.3s ease;
+  }
+  
+  .home-page.comments-open .post-feed {
+    width: 65%;
+    padding-right: 20px;
+  }
+  
+  .comments-sidebar {
+    width: 35%;
+    min-width: 400px;
+    height: calc(100vh - 120px);
+    position: sticky;
+    top: 70px;
+    background: white;
+    border-left: 1px solid #e0e0e0;
+    padding: 20px;
+    overflow-y: auto;
+    animation: slideIn 0.3s ease;
+  }
+  
+  @keyframes slideIn {
+    from { 
+      transform: translateX(100%);
+      opacity: 0;
+    }
+    to { 
+      transform: translateX(0);
+      opacity: 1;
+    }
+  }
+  
+  .loading-indicator {
+    text-align: center;
+    padding: 20px;
+    color: #888;
+  }

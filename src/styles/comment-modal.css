@@ -1,0 +1,61 @@
+.modal-overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: rgba(0, 0, 0, 0.3);
+    z-index: 1000;
+    display: flex;
+    justify-content: flex-end;
+    animation: fadeIn 0.3s ease;
+  }
+  
+  .modal-content {
+    position: relative;
+    background: white;
+    width: 350px;
+    height: 100vh;
+    padding: 25px;
+    box-shadow: -2px 0 15px rgba(0, 0, 0, 0.1);
+    overflow-y: auto;
+    animation: slideIn 0.3s ease;
+  }
+  
+  @keyframes slideIn {
+    from {
+      transform: translateX(100%);
+    }
+    to {
+      transform: translateX(0);
+    }
+  }
+  
+  @keyframes fadeIn {
+    from {
+      opacity: 0;
+    }
+    to {
+      opacity: 1;
+    }
+  }
+  
+  .close-button {
+    position: absolute;
+    top: 15px;
+    right: 15px;
+    background: none;
+    border: none;
+    font-size: 1.5rem;
+    cursor: pointer;
+    color: #666;
+  }
+  
+  .modal-comments {
+    margin-top: 20px;
+  }
+  
+  .modal-comments .comment {
+    padding: 10px 0;
+    border-bottom: 1px solid #eee;
+  }
