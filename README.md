@@ -1,7 +1,4 @@
 # React Social Media App
-**Last Name:** Tabeche.
-**Section:** B.
-**Group:** 3.
 
 ---
 
